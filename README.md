@@ -4,7 +4,7 @@ La finalidad de esta práctica es actualizar la información de todo el proyecto
 =======
 ![Logo Java](https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png))
 
-# Nutri
+# NutriFacil
 
 ## Proposito del sitio
 
