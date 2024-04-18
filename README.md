@@ -2,7 +2,7 @@
 La finalidad de esta práctica es actualizar la información de todo el proyecto de forma colaborativa
 
 =======
-![Logo Java](https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png))
+![Logo Java](https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png)
 
 # NutriFacil
 
