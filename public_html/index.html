@@ -12,7 +12,6 @@
 	<link rel="stylesheet" href="assets/css/johndoe.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="Inicio">
-    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark navbar-dark" data-spy="affix" data-offset-top="510">
     <div class="container">
@@ -29,7 +28,10 @@
                     <a href="#prob" class="nav-link">Problematica</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#diet" class="nav-link">Dietas</a>
+                    <a href="#table" class="nav-link">Indice de Masa Corporal</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Dietas</a>
                 </li>
             </ul>
         </div>
@@ -62,7 +64,6 @@
         </div>
     </div>
     </section>
-    
     <!--Home Section-->
 
     <!--Prob Section-->
@@ -98,51 +99,158 @@
     </section>
     <!-- End of Prob section -->
 
+    <!-- End of Table section -->
+    <section class="section" id="table">
+        <h3 class="mb-5" style="font-size: 48px; text-align: center;">Indice de Masa Corporal</h3>
+        <span class="line mb-5" style="display: block; width: 50%; margin: 0 auto;"></span>
+        <div class="container">
+            <div class="card-body">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>CLASIFICACION</th>
+                            <th>IMC</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Desnutrición Severa</td>
+                            <td>Menos de 16</td>
+                        </tr>
+
+                        <tr>
+                            <td>Desnutrición Moderada</td>
+                            <td>16.1 - 18,4</td>
+                        </tr>
+                        <tr>
+                            <td>Bajo peso</td>
+                            <td>18.5 - 22</td>
+                        </tr>
+                        <tr>
+                            <td>Peso normal</td>
+                            <td>22.1 - 24.9</td>
+                        </tr>
+                        <tr>
+                            <td>Sobrepeso</td>
+                            <td>25 - 29.9</td>
+                        </tr>
+                        <tr>
+                            <td>Obesidad Tipo I</td>
+                            <td>30 - 34.9</td>
+                        </tr>
+                        <tr>
+                            <td>Obesidad Tipo II</td>
+                            <td>35 - 39.9</td>
+                        </tr>
+                        <tr>
+                            <td>Obesidad Tipo III</td>
+                            <td>40 - 49.9</td>
+                        </tr>
+                        <tr>
+                            <td>Obesidad Tipo IV</td>
+                            <td>Más de 50</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="container">
+                <div class="card-body">
+                    <h5 class="mb-3" style="font-size: 26px;">Aviso</h5>
+                    <p class="mt-20" style="font-size: 18px;">El Índice de Masa Corporal (IMC) 
+                        es una medida que se utiliza para estimar si una persona tiene un peso saludable para su altura. 
+                        Se calcula dividiendo el peso de una persona en kilogramos por el cuadrado de su altura en metros. 
+                        La fórmula matemática para calcular el IMC es la siguiente:
+                    </p>
+
+                    <p class="mt-20" style="font-size: 18px;">IMC = Peso (kg) / Altura (m)^2</p>
+
+                    <p class="mt-20" style="font-size: 18px;">Por ejemplo, 
+                        si una persona pesa 70 kilogramos y mide 1.75 metros de altura, 
+                        su cálculo de IMC sería:
+                    </p>
+
+                    <p class="mt-20" style="font-size: 18px;">IMC = 70 / (1.75)^2</p>
+
+                    <p class="mt-20" style="font-size: 18px;">IMC = 70 / 3.0625</p>
+
+                    <p class="mt-20" style="font-size: 18px;">IMC = 22.86</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Table section -->
 
     <!-- Diet Section -->
-    <section class="section" id="diet">
+    <section class="section" id="portfolio">
         <div class="container">
             <h2 class="mb-5" style="font-size: 48px; text-align: center;">Dietas</h2>
             <span class="line mb-5" style="display: block; width: 50%; margin: 0 auto;"></span>
-            <h5 class="mb-3" style="font-size: 26px; text-align: center;">Niñez</h5>
-            <div class="diet">
-                <div class="row">
-                    <div class="col-md-10 col-sm-6 mx-auto">
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Niños Activos</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Avena cocida con leche, plátano en rodajas y nueces.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Sándwich de pavo y queso en pan integral, zanahorias baby y una manzana.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Pechuga de pollo a la parrilla, arroz integral y brócoli al vapor.
-                                </p>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".kid">
+                        Niñez
+                    </a>
+                    <a href="#" data-filter=".adult">
+                        Adultez
+                    </a>
+                    <a href="#" data-filter=".old">
+                        Tercera Edad
+                    </a>
+                </div>
+
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 kid">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Niños Activos</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Avena cocida con leche, plátano en rodajas y nueces.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Sándwich de pavo y queso en pan integral, zanahorias baby y una manzana.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Pechuga de pollo a la parrilla, arroz integral y brócoli al vapor.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    </div>    
-                    
-                    <div class="col-md-10 col-sm-6 mx-auto"> 
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Niños Vegetarianos</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Batido de leche de almendras con espinacas, plátano y mantequilla de cacahuete.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Ensalada de garbanzos con tomate, pepino, pimiento y aderezo de vinagreta de limón, acompañada de pan integral.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Tacos de frijoles negros con guacamole, salsa fresca y tortillas de maíz.
-                                </p>
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Niñez</h6>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 kid">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Niños Vegetarianos</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Batido de leche de almendras con espinacas, plátano y mantequilla de cacahuete.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Ensalada de garbanzos con tomate, pepino, pimiento y aderezo de vinagreta de limón, acompañada de pan integral.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Tacos de frijoles negros con guacamole, salsa fresca y tortillas de maíz.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    </div>        
-                    
-                    <div class="col-md-10 col-sm-6 mx-auto"> 
-                        <div class="card mb-5">
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Niñez</h6>
+                                </div>
+                            </div> 
+                        </div>                         
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 kid">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
                             <div class="card-body px-4 py-3">
                                 <h5 class="mb-3" style="font-size: 26px;">Niños Quisquillosos</h5>
                                 <p class="mt-20" style="font-size: 18px;">
@@ -156,233 +264,306 @@
                                 </p>
                             </div>
                         </div>
-                    </div>    
-                    
-                    <div class="col-md-10 col-sm-6 mx-auto"> 
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Niños con Falta de Energía</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Tortilla de huevo con espinacas, queso rallado y tomate, acompañada de una naranja.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Burrito de frijoles y arroz integral con aguacate, tomate y lechuga, acompañado de palitos de apio con hummus.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Filete de salmón al horno con batatas asadas y espárragos.
-                                </p>
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Niñez</h6>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 kid">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Niños con Falta de Energía</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Tortilla de huevo con espinacas, queso rallado y tomate, acompañada de una naranja.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Burrito de frijoles y arroz integral con aguacate, tomate y lechuga, acompañado de palitos de apio con hummus.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Filete de salmón al horno con batatas asadas y espárragos.
+                                    </p>
+                                </div>
                             </div>
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Niñez</h6>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 kid"> 
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Niños con Necesidades Especiales</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Batido de proteínas con leche, plátano y mantequilla de cacahuete.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Pechuga de pollo a la plancha con puré de patatas y brócoli al vapor.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Rollitos de salmón ahumado con queso crema y pepino, acompañados de palitos de zanahoria y hummus.
+                                    </p>
+                                </div>
+                            </div>                               
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Niñez</h6>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 adult">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Dieta Mediterránea</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Tostadas integrales con aguacate y tomate, un puñado de almendras, y una pieza de fruta.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Ensalada griega con lechuga, tomate, pepino, aceitunas, queso feta y pollo a la parrilla, acompañada de pan integral.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Salmón al horno con verduras asadas (calabacín, pimientos, cebolla) y una porción de quinoa.
+                                    </p>
+                                </div>
+                            </div>  
+                        <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Adultez</h6>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 adult">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Dieta Vegetariana</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Batido de leche de almendras con espinacas, plátano y mantequilla de cacahuete.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Ensalada de garbanzos con tomate, pepino, pimiento y aderezo de vinagreta de limón, acompañada de pan integral.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Tacos de frijoles negros con guacamole, salsa fresca y tortillas de maíz.
+                                    </p>
+                                </div>
+                            </div>
+                        <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Adultez</h6>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 adult"> 
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Dieta Paleo</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Huevos revueltos con espinacas y aguacate, acompañados de frutas frescas.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Ensalada de pollo a la parrilla con lechuga, tomate, pepino, nueces y aliño de aceite de oliva y limón.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Filete de ternera a la parrilla con espárragos al horno y batata asada.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Adobe Photoshop</h6>
+                                </div>
+                            </div>
+                        </div>      
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 adult">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Dieta Flexitariana</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Yogur griego con granola casera, frutas y miel.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Sándwich de tofu a la parrilla con aguacate, espinacas y tomate en pan integral.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Pasta integral con salsa de tomate casera, champiñones, espinacas y queso parmesano.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Adult</h6>
+                                </div>
+                            </div> 
                         </div>
                     </div>
 
-                    <div class="col-md-10 col-sm-6 mx-auto"> 
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Niños con Necesidades Especiales</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Batido de proteínas con leche, plátano y mantequilla de cacahuete.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Pechuga de pollo a la plancha con puré de patatas y brócoli al vapor.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Rollitos de salmón ahumado con queso crema y pepino, acompañados de palitos de zanahoria y hummus.
-                                </p>
+                    <div class="col-md-6 col-lg-4 adult">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Dieta Baja en Carbohidratos</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Tortilla de claras de huevo con espinacas y queso feta, acompañada de rodajas de aguacate.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Ensalada César con pollo a la parrilla (sin crutones).
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Salmón al horno con brócoli al vapor y una ensalada verde con vinagreta de limón.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">SAI</h6>
+                                </div>
+                            </div>
+                        </div>                                                     
                     </div>
 
-                </div>
+                    <div class="col-md-6 col-lg-4 old">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Adultos Mayores con Problemas de Digestión</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Yogur natural con granola y frutas frescas.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Sopa de verduras con pollo desmenuzado y una rebanada de pan integral.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Pescado al horno con puré de patatas y espárragos al vapor.                                    .
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Tercera Edad</h6>
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 old">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Adultos Mayores con Diabetes</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Tortilla de claras de huevo con espinacas y una rebanada de pan integral tostado.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Ensalada de salmón con espinacas, aguacate y aderezo de vinagreta balsámica.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Pollo al horno con vegetales asados (zanahorias, calabacín, cebolla) y quinoa.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Adobe Illustrator</h6>
+                                </div>
+                            </div>
+                        </div>                                                      
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 old">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;"> Adultos Mayores con Problemas de Masticación</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Batido de proteínas con leche, plátano y mantequilla de almendras.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Puré de verduras con trozos de pollo tierno y compota de manzana.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Salmón al vapor con puré de patatas y espárragos cocidos.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Tercera Edad</h6>
+                                </div>
+                            </div>
+                        </div>                                                   
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 old">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Adultos Mayores con Hipertensión</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Avena cocida con leche desnatada y frutas frescas.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Pechuga de pollo a la parrilla con ensalada verde y aderezo bajo en sodio.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Pescado al horno con quinoa y brócoli al vapor.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Tercera Edad</h6>
+                                </div>
+                            </div>
+                        </div>                                                   
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 old">
+                        <div class="portfolio-item">
+                            <div class="card mb-5">
+                                <div class="card-body px-4 py-3">
+                                    <h5 class="mb-3" style="font-size: 26px;">Adultos Mayores con Problemas de Estreñimiento</h5>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Desayuno: Kiwi, yogur con salvado de avena y nueces.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Almuerzo: Lentejas cocidas con arroz integral y una ensalada de pepino y tomate.
+                                    </p>
+                                    <p class="mt-20" style="font-size: 18px;">
+                                        - Cena: Ensalada de garbanzos con espinacas, pimientos y aderezo de vinagreta de limón, acompañada de una rebanada de pan integral.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-holder">
+                                <div class="text-holder">
+                                    <h6 class="title">Tercera Edad</h6>
+                                </div>
+                            </div>
+                        </div>                                                   
+                    </div>
+                </div> 
             </div>  
-        </div>
-        
-        <div class="container">
-            <h5 class="mb-3" style="font-size: 26px; text-align: center;">Adultez</h5>
-            <div class="diet">
-                <div class="row">
-                    <div class="col-md-10 col-sm-6 mx-auto">
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Dieta Mediterránea</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Tostadas integrales con aguacate y tomate, un puñado de almendras, y una pieza de fruta.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Ensalada griega con lechuga, tomate, pepino, aceitunas, queso feta y pollo a la parrilla, acompañada de pan integral.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Salmón al horno con verduras asadas (calabacín, pimientos, cebolla) y una porción de quinoa.
-                                </p>
-                            </div>
-                        </div>
-                    </div>    
-                    
-                    <div class="col-md-10 col-sm-6 mx-auto"> 
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Dieta Vegetariana</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Batido de leche de almendras con espinacas, plátano y mantequilla de cacahuete.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Ensalada de garbanzos con tomate, pepino, pimiento y aderezo de vinagreta de limón, acompañada de pan integral.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Tacos de frijoles negros con guacamole, salsa fresca y tortillas de maíz.
-                                </p>
-                            </div>
-                        </div>
-                    </div>           
-                    
-                    <div class="col-md-10 col-sm-6 mx-auto"> 
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Dieta Paleo</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Huevos revueltos con espinacas y aguacate, acompañados de frutas frescas.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Ensalada de pollo a la parrilla con lechuga, tomate, pepino, nueces y aliño de aceite de oliva y limón.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Filete de ternera a la parrilla con espárragos al horno y batata asada.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-10 col-sm-6 mx-auto"> 
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Dieta Flexitariana</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Yogur griego con granola casera, frutas y miel.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Sándwich de tofu a la parrilla con aguacate, espinacas y tomate en pan integral.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Pasta integral con salsa de tomate casera, champiñones, espinacas y queso parmesano.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-10 col-sm-6 mx-auto"> 
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Dieta Baja en Carbohidratos</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Tortilla de claras de huevo con espinacas y queso feta, acompañada de rodajas de aguacate.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Ensalada César con pollo a la parrilla (sin crutones).
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Salmón al horno con brócoli al vapor y una ensalada verde con vinagreta de limón.
-                                </p>
-                            </div>
-                        </div>
-                    </div> 
-
-                </div>
-            </div>  
-        </div>
-
-        <div class="container">
-            <h5 class="mb-3" style="font-size: 26px; text-align: center;">Tercera Edad</h5>
-            <div class="diet">
-                <div class="row">
-                    <div class="col-md-10 col-sm-6 mx-auto">
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Adultos Mayores con Problemas de Digestión</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Yogur natural con granola y frutas frescas.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Sopa de verduras con pollo desmenuzado y una rebanada de pan integral.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Pescado al horno con puré de patatas y espárragos al vapor.                                    .
-                                </p>
-                            </div>
-                        </div>
-                    </div>    
-                    
-                    <div class="col-md-10 col-sm-6 mx-auto"> 
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Adultos Mayores con Diabetes</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Tortilla de claras de huevo con espinacas y una rebanada de pan integral tostado.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Ensalada de salmón con espinacas, aguacate y aderezo de vinagreta balsámica.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Pollo al horno con vegetales asados (zanahorias, calabacín, cebolla) y quinoa.
-                                </p>
-                            </div>
-                        </div>
-                    </div>        
-                    
-                    <div class="col-md-10 col-sm-6 mx-auto"> 
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;"> Adultos Mayores con Problemas de Masticación</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Batido de proteínas con leche, plátano y mantequilla de almendras.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Puré de verduras con trozos de pollo tierno y compota de manzana.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Salmón al vapor con puré de patatas y espárragos cocidos.
-                                </p>
-                            </div>
-                        </div>
-                    </div>    
-                    
-                    <div class="col-md-10 col-sm-6 mx-auto"> 
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Adultos Mayores con Hipertensión</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Avena cocida con leche desnatada y frutas frescas.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Pechuga de pollo a la parrilla con ensalada verde y aderezo bajo en sodio.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Pescado al horno con quinoa y brócoli al vapor.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-10 col-sm-6 mx-auto"> 
-                        <div class="card mb-5">
-                            <div class="card-body px-4 py-3">
-                                <h5 class="mb-3" style="font-size: 26px;">Adultos Mayores con Problemas de Estreñimiento</h5>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Desayuno: Kiwi, yogur con salvado de avena y nueces.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Almuerzo: Lentejas cocidas con arroz integral y una ensalada de pepino y tomate.
-                                </p>
-                                <p class="mt-20" style="font-size: 18px;">
-                                    - Cena: Ensalada de garbanzos con espinacas, pimientos y aderezo de vinagreta de limón, acompañada de una rebanada de pan integral.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>  
-        </div>
+        </div>            
     </section>
-    <!-- End of Diet section -->
+    <!-- End of diet section -->
 
     <footer class="footer py-3">
         <div class="container">
