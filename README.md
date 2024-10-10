@@ -1,86 +1,79 @@
-# Proyecto de actualización de codigo en Java
-La finalidad de esta práctica es actualizar la información de todo el proyecto de forma colaborativa
+# APOIII
 
-![Logo Java](https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png)
+Mécanica.
 
-# NutriFacil
+## Descripción
+Actividad Final.
 
-## Proposito del sitio
+...
 
-Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. Consulte implementación para obtener notas sobre cómo implementar el proyecto en un sistema en vivo.
+### Programas
 
-### Requisitos previos
+**Java Development Kit**
 
-Qué cosas necesitas para instalar el software y cómo instalarlas
-
-```
-Give examples
-```
+![Java-Logo](https://github.com/JuanEraso23/APOIII-taller01/assets/144852394/a7f3bdf9-f227-4a2c-83de-b44e7cc8fab2)
 
 ### Instalación
 
-Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo.
+1. Ingresa a la página oficial de Java Downloads.
 
-Di cuál será el paso.
+[anchor](https://www.oracle.com/co/java/technologies/downloads/#jdk22-windows)
 
-```
-Give the example
-```
+2. Selecciona el sistema operativo que posees actualmente.
+   
+   **(En mi caso fue "Windows")**
 
-Y repetir
+![Captura de pantalla_20240330_084158](https://github.com/JuanEraso23/APOIII-taller01/assets/144852394/5dcebd50-666d-4f56-8de1-23d844866c2f)
 
-```
-until finished
-```
+3. Selecciona el link de uno de los instaladores en la sección "Product/File Description".
+   
+   **(En mi caso fue "x64 Installer")**
+   
+![Captura de pantalla_20240330_084158](https://github.com/JuanEraso23/APOIII-taller01/assets/144852394/5dcebd50-666d-4f56-8de1-23d844866c2f)
 
-Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.
+---
+**Apache Netbeans**
 
-## Ejecutando las pruebas
+![1628159](https://github.com/JuanEraso23/APOIII-taller03/assets/144852394/2c6a9fe5-2077-4873-b46b-cf79865798da)
 
-Explicar cómo ejecutar las pruebas automatizadas para este sistema.
+### Instalación
 
-### Dividir en pruebas de principio a fin
+1. Ingresa a la página oficial de Apache NetBeans.
 
-Explique qué prueban estas pruebas y por qué.
+[anchor](https://netbeans.apache.org/front/main/)
 
-```
-Give an example
-```
+2. Presiona la opción "Download".
 
-### Y pruebas de estilo de codificación.
+![Captura de pantalla_20240330_092345](https://github.com/JuanEraso23/APOIII-taller03/assets/144852394/d067ed72-1631-4ce0-8296-a10d3d127e1b)
 
-Explique qué prueban estas pruebas y por qué.
+3. Selecciona una de las opciones en "Installers And Packages".
+   
+   **(En mi caso fue "Apache-NetBeans-20r1-bin-windows-x64.exe (SHA-512, PGP ASC)")**
+   
+![Captura de pantalla_20240330_092403](https://github.com/JuanEraso23/APOIII-taller03/assets/144852394/aa39ba0d-1e32-469b-b187-a07cd197392f)
 
-```
-Give an example
-```
+4. Selecciona el primer link.
+
+![Captura de pantalla_20240330_092442](https://github.com/JuanEraso23/APOIII-taller03/assets/144852394/bf248d7e-f57e-4319-a68d-c158b8bf55b9)
 
 ## Despliegue (Deployment)
 
-Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
-
+Taller desarrollado con el IDE Apache Netbeans a lo largo del segundo semestre, 
+cuya tematica fue impartida por el docente a cargo de la asignatura "Fabian Parra" 
+al cual se le otorga su debido agradecimiento.
 
 ## Construido con
 
-Dropwizard : el marco web utilizado
-Maven - Gestión de dependencias
-ROMA : se utiliza para generar canales RSS
+Apache Netbeans: Programa de Desarrollo Java.
 
 ## Versionado
 
-Usamos Git para el control de versiones. Para conocer las versiones disponibles, consulte las etiquetas en este repositorio .
+Apache Netbeans (Versión 20).
 
-## Autores
+## Autor(es)
 
-* **Gustavo Sánchez** 
-
-
-## Licencia
-
-Este proyecto tiene la licencia MIT; consulte el archivo LICENSE.md para obtener más detalles.
+Juan Eraso.
 
 ## Expresiones de gratitud (Acknowledgments)
 
-* Un consejo para cualquiera cuyo código se haya utilizado
-* Inspiración
-* etc
+* Aprende de poco a poco para llegar lejos...
