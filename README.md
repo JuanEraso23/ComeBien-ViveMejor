@@ -72,7 +72,8 @@ Apache Netbeans (Versión 20).
 
 ## Autor(es)
 
-Juan Eraso.
+Juan Eraso
+Jaider Narvaéz
 
 ## Expresiones de gratitud (Acknowledgments)
 
